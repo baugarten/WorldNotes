@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  	<TextView android:text="Username:"
+  		android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		/>
+    <EditText android:hint="Username" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/username">
+    </EditText>
+    <TextView android:text="Password:"
+  		android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		/>
+  	<EditText
+  		android:password="true" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/password">
+    </EditText>
+    <TextView android:text="Email:"
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content"
+    	/>
+    <EditText android:hint="Email" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/email"
+    	/>
+    <Button android:text = "Submit"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/register"
+    	/> 
+
+    	
+</LinearLayout>

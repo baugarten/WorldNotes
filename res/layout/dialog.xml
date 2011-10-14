@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+			xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+    <LinearLayout 
+			  xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:layout_marginTop="5dp"
+              >           
+		    <TextView android:id="@+id/placetext"
+		              android:layout_width="wrap_content"
+		              android:layout_height="fill_parent"
+		              android:textColor="#FFF"
+		              android:layout_marginRight="10dp"
+		              android:gravity="center"
+		              />
+            <EditText android:id="@+id/placeedit"
+		              android:layout_width="300dp"
+		              android:layout_height="fill_parent"
+		              android:hint="Name of your place here"
+		              android:textColor="#FFF"
+		              />
+    </LinearLayout>
+    <LinearLayout 
+			  xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:layout_marginTop="5dp"
+              >           
+		    <TextView android:id="@+id/categorytext"
+		              android:layout_width="wrap_content"
+		              android:layout_height="fill_parent"
+		              android:textColor="#FFF"
+		              android:layout_marginRight="10dp"
+		              android:gravity="center"
+		              />
+            <EditText android:id="@+id/categoryedit"
+		              android:layout_width="fill_parent"
+		              android:hint="Put your category here"
+		              android:layout_height="fill_parent"
+		              android:textColor="#FFF"
+		              />
+    </LinearLayout>
+    <LinearLayout 
+			  xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp"
+              android:layout_marginTop="5dp"
+              >           
+		    <TextView android:id="@+id/notetext"
+		              android:layout_width="wrap_content"
+		              android:layout_height="fill_parent"
+		              android:textColor="#FFF"
+		              android:layout_marginRight="10dp"
+		              android:gravity="center"
+		              />
+            <EditText android:id="@+id/noteedit"
+		              android:layout_width="fill_parent"
+		              android:layout_height="70dp"
+		              android:hint="Put your new note here"
+		              android:textColor="#FFF"
+		              />
+    </LinearLayout>
+    <RelativeLayout
+			  xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:layout_gravity="center"
+              android:padding="10dp"
+              >   
+   			<Button android:id="@+id/button"
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:textColor="#FFF"
+		              android:gravity="center"
+		              android:layout_gravity="center"
+		              android:text="Save New Note"/>
+		    <Button android:id="@+id/delete_button"
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:textColor="#FFF"
+		              android:layout_gravity="center"
+		              android:layout_toRightOf="@id/button"
+		              android:text="Delete Note"/>
+    </RelativeLayout>
+		             
+		              
+</LinearLayout>

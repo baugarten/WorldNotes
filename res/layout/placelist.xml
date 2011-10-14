@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/list"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  >
+
+  <TextView
+  	android:textSize="12pt"
+  	android:textColor="#000000"
+  	android:layout_width= "match_parent"
+  	android:layout_height="wrap_content"
+  	android:id="@+id/place"/>
+  	<TextView
+  	android:visibility="gone"
+  	android:id="@+id/id_tag"
+  	android:text=""
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	/>
+</LinearLayout>

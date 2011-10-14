@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, geoNotes!</string>
+    <string name="app_name">Geo Notes</string>
+    <string name="app_label">Geo Notes</string>
+    <string name="search_hint">Search Places</string>
+</resources>

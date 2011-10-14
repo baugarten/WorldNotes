@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/invisible_category">
+    
+    <item android:id="@+id/share_category"
+        android:orderInCategory="0"
+        android:title="Share Category"
+        android:showAsAction="ifRoom|withText"/>
+    </group>
+    <group android:id="@+id/invisible_place">
+    <item android:id="@+id/share_place"
+        android:orderInCategory="0"
+        android:title="Share Place"
+        android:showAsAction="ifRoom|withText" />
+    </group>    
+    <item android:id="@+id/show_all"
+      android:orderInCategory="0"
+      android:title="Show All"
+      android:showAsAction="ifRoom|withText"/>
+       
+    <item android:id="@+id/recenter"
+      android:orderInCategory="0"
+      android:title="Recenter Map"
+      android:showAsAction="ifRoom|withText"/>
+
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:showAsAction="always"
+        android:actionViewClass="android.widget.SearchView"
+        
+         />
+         
+     
+</menu>
+<!-- android:icon="@drawable/ic_menu_search" 
+android:actionLayout="@xml/searchable"
+android:onClick="updateMap"
+-->

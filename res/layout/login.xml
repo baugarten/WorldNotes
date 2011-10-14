@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+	<TextView android:text="Username:"
+  		android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		/>
+    <EditText android:hint="Username" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/loginusername">
+    </EditText>
+    <TextView android:text="Password:"
+  		android:layout_height="wrap_content"
+  		android:layout_width="wrap_content"
+  		/>
+  	<EditText
+  		android:password="true" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/loginpassword">
+    </EditText>
+    <Button android:text = "Submit"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/login"
+    	/> 
+   	<Button android:text = "Register"
+    	android:id="@+id/register"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	/>
+</LinearLayout>

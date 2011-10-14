@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAAAAA"
+    >
+    <fragment android:name="com.project.geonotes.PlaceList"
+            android:id="@+id/list"
+            android:layout_width="275px"
+            android:layout_height="match_parent" 
+            android:layout_marginRight="5dp"
+            android:background="#FFFFFF" />
+    
+    <fragment android:name="com.project.geonotes.MapFrag"
+    		android:id="@+id/map"
+    		android:layout_toRightOf="@+id/list"
+    		android:layout_gravity="center_vertical"
+    		android:layout_width="1000px"
+    		android:layout_height="match_parent"/> 
+    <!--<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    /> -->
+    <Button android:name="reset"
+    	android:text="Download Now"
+    	android:gravity="center"
+    	android:id="@+id/reset"
+    	android:background="#FF000000"
+    	android:textColor="#FFFFFFFF"
+    	android:layout_width="275px"
+    	android:paddingBottom="10px"
+    	android:layout_height="wrap_content" 
+    	android:layout_alignParentBottom="true"
+    	/>
+</RelativeLayout>
